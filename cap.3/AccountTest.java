@@ -9,9 +9,9 @@ public class AccountTest {
 
         // exibe saldo inicial de cada objeto
         System.out.printf("%s balance: $%.2f %n",
-             account1.getName(),account1.getBalance());
+            account1.getName(),account1.getBalance());
         System.out.printf("%s balance: $%.2f %n%n",
-             account2.getName(),account2.getBalance());
+            account2.getName(),account2.getBalance());
 
         // cria um Scanner para obter entrada a partir da janela de comand
         Scanner input = new Scanner(System.in);
