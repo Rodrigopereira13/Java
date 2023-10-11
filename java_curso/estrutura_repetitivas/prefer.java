@@ -16,7 +16,7 @@ public class prefer {
                 alcool = alcool + 1;
             } else if (x == 2) {
                 gasolina = gasolina + 1;
-            } else if (x == 2) {
+            } else if (x == 3) {
                 diesel = diesel + 1;
             }
 
