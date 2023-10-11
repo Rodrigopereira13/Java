@@ -18,6 +18,8 @@ public class soma {
 
         System.out.println(somar);
 
+        sc.close();
+
 
     }
 }
