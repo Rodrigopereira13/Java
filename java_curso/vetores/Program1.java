@@ -21,13 +21,25 @@ public class Program1 {
 
         double sum = 0.0;
         for (int i = 0; i < vect.length; i++) {
-            sum += vect[i].getprice();
+            sum += vect[i].getPrice();
         }
 
         double avg = sum / vect.length;
 
         System.out.println(avg);
 
+        for (int i = 0; i < vect.length; i++) {
+            sc.nextLine();
+            if (vect[0].getPrice() > vect[1].getPrice() && vect[0].getPrice() > vect[2].getPrice()){
+                System.out.printf("O price maior foi de %.2f%n", vect[0].getPrice());
+                
+            } else if (vect[1].getPrice() > vect[0].getPrice() && vect[1].getPrice() > vect[2].getPrice()){
+                System.out.printf("O price maior foi de %.2f%n", vect[1].getPrice());
+            
+            }else {
+                System.out.printf("O price maior foi de %.2f%n", vect[2].getPrice());
+            }
+        }
         sc.close();
     }
 }
