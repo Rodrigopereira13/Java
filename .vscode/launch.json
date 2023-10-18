@@ -1,0 +1,203 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AccountTest",
+            "request": "launch",
+            "mainClass": "AccountTest",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Comparison",
+            "request": "launch",
+            "mainClass": "Comparison",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "addition",
+            "request": "launch",
+            "mainClass": "addition",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "codigo1",
+            "request": "launch",
+            "mainClass": "codigo1",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Estoque",
+            "request": "launch",
+            "mainClass": "java_curso.encapsulamento_outros.contrutores.Estoque",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "java_curso.encapsulamento_outros.encapsulamento.Program",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "desconto",
+            "request": "launch",
+            "mainClass": "java_curso.estrutura_condicional.desconto",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "dia",
+            "request": "launch",
+            "mainClass": "java_curso.estrutura_condicional.dia",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "imposto",
+            "request": "launch",
+            "mainClass": "java_curso.estrutura_condicional.imposto",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "valor_conta",
+            "request": "launch",
+            "mainClass": "java_curso.estrutura_condicional.valor_conta",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "intervalo",
+            "request": "launch",
+            "mainClass": "java_curso.estrutura_repetitivas.intervalo",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "laçofor",
+            "request": "launch",
+            "mainClass": "java_curso.estrutura_repetitivas.laçofor",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "prefer",
+            "request": "launch",
+            "mainClass": "java_curso.estrutura_repetitivas.prefer",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "progressao",
+            "request": "launch",
+            "mainClass": "java_curso.estrutura_repetitivas.progressao",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "senha",
+            "request": "launch",
+            "mainClass": "java_curso.estrutura_repetitivas.senha",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "soma",
+            "request": "launch",
+            "mainClass": "java_curso.estrutura_repetitivas.soma",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "temp",
+            "request": "launch",
+            "mainClass": "java_curso.estrutura_repetitivas.temp",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Maior",
+            "request": "launch",
+            "mainClass": "java_curso.funcao_java.Maior",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "AumtSalario",
+            "request": "launch",
+            "mainClass": "java_curso.orientacao_objetos.aumento_salario.AumtSalario",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Estoque(1)",
+            "request": "launch",
+            "mainClass": "java_curso.orientacao_objetos.controle.Estoque",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Conversao",
+            "request": "launch",
+            "mainClass": "java_curso.orientacao_objetos.dolar_reais.Conversao",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "area",
+            "request": "launch",
+            "mainClass": "java_curso.orientacao_objetos.triangulo.area",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "media",
+            "request": "launch",
+            "mainClass": "java_curso.vetores.media",
+            "projectName": "Java_7aa3ae64"
+        }
+    ]
+}
