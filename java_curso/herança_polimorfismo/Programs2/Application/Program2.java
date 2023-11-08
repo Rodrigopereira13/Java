@@ -1,12 +1,12 @@
-package java_curso.herança.Programs2.Application;
+package java_curso.herança_polimorfismo.Programs2.Application;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
-import java_curso.herança.Programs2.Entities.Employee;
-import java_curso.herança.Programs2.Entities.OutsourcedEmployee;
+import java_curso.herança_polimorfismo.Programs2.Entities.Employee;
+import java_curso.herança_polimorfismo.Programs2.Entities.OutsourcedEmployee;
 
 public class Program2 {
     

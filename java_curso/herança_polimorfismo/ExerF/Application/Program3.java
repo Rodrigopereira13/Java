@@ -1,4 +1,4 @@
-package java_curso.herança.ExerF.Application;
+package java_curso.herança_polimorfismo.ExerF.Application;
 
 import java.text.ParseException;
 import java.time.LocalDate;
@@ -8,9 +8,9 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
-import java_curso.herança.ExerF.Entities.ImportedProduct;
-import java_curso.herança.ExerF.Entities.Product;
-import java_curso.herança.ExerF.Entities.UsedProduct;
+import java_curso.herança_polimorfismo.ExerF.Entities.ImportedProduct;
+import java_curso.herança_polimorfismo.ExerF.Entities.Product;
+import java_curso.herança_polimorfismo.ExerF.Entities.UsedProduct;
 
 public class Program3 {
     public static void main(String[] args) throws ParseException{

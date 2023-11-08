@@ -1,4 +1,4 @@
-package java_curso.herança.ExerF.Entities;
+package java_curso.herança_polimorfismo.ExerF.Entities;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

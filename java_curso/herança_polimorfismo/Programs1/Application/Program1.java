@@ -1,8 +1,8 @@
-package java_curso.herança.Programs1.Application;
+package java_curso.herança_polimorfismo.Programs1.Application;
 
-import java_curso.herança.Programs1.Enteties.Account;
-import java_curso.herança.Programs1.Enteties.BusinessAccount;
-import java_curso.herança.Programs1.Enteties.SavingsAccount;
+import java_curso.herança_polimorfismo.Programs1.Enteties.Account;
+import java_curso.herança_polimorfismo.Programs1.Enteties.BusinessAccount;
+import java_curso.herança_polimorfismo.Programs1.Enteties.SavingsAccount;
 
 public class Program1 {
     

@@ -1,4 +1,4 @@
-package java_curso.herança.Programs1.Enteties;
+package java_curso.herança_polimorfismo.Programs1.Enteties;
 
 public final class SavingsAccount extends Account {
     

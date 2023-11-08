@@ -1,4 +1,4 @@
-package java_curso.herança.ExerF.Entities;
+package java_curso.herança_polimorfismo.ExerF.Entities;
 
 public class ImportedProduct extends Product{
     private Double customsFee;

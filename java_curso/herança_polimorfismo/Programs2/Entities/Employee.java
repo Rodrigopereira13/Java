@@ -1,4 +1,4 @@
-package java_curso.herança.Programs2.Entities;
+package java_curso.herança_polimorfismo.Programs2.Entities;
 
 public class Employee {
 
