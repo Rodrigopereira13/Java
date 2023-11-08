@@ -10,7 +10,7 @@ import java_curso.herança_polimorfismo.Classes_Abstratas.Programs4.Entities.Rec
 import java_curso.herança_polimorfismo.Classes_Abstratas.Programs4.Entities.Shape;
 import java_curso.herança_polimorfismo.Classes_Abstratas.Programs4.Entities.enums.Color;
 
-public class Program5 {
+public class Program4 {
     public static void main(String[] args) {
 
 		Locale.setDefault(Locale.US);
