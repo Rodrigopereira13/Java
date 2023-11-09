@@ -1,4 +1,4 @@
-package java_curso.vetores;
+package java_curso.6vetores_listas;
 
 import java.util.Locale;
 import java.util.Scanner;

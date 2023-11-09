@@ -1,4 +1,4 @@
-package java_curso.vetores;
+package java_curso.vetores_listas;
 
 import java.text.ParseException;
 import java.util.Scanner;

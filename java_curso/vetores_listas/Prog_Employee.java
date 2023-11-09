@@ -1,4 +1,4 @@
-package java_curso.vetores;
+package java_curso.vetores_listas;
 
 import java.util.ArrayList;
 import java.util.List;
