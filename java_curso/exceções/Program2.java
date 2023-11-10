@@ -1,4 +1,4 @@
-package java_curso.exceções;
+package java_curso.Exceções;
 
 import java.io.File;
 import java.io.IOException;

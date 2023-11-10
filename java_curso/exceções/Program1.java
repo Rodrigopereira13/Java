@@ -1,4 +1,4 @@
-package java_curso.exceções;
+package java_curso.Exceções;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
