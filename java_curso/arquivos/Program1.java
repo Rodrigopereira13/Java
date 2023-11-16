@@ -1,6 +1,7 @@
 package java_curso.arquivos;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Program1 {
@@ -13,7 +14,7 @@ public class Program1 {
             while (sc.hasNextLine()){
                 System.out.println(sc.nextLine());
             }
-        } catch (Exception e) {
+        } catch (IOException e) {
             System.out.println("Error: " + e.getMessage());
         }
 
