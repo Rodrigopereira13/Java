@@ -1,4 +1,4 @@
-package java_curso.c_interface.application;
+package java_curso.c_interface.Programs1.application;
 
 import java.text.ParseException;
 import java.time.LocalDateTime;
@@ -6,10 +6,10 @@ import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 import java.util.Scanner;
 
-import java_curso.c_interface.model.entities.CarRental;
-import java_curso.c_interface.model.entities.Vehicle;
-import java_curso.c_interface.model.services.BrazilTaxService;
-import java_curso.c_interface.model.services.RentalService;
+import java_curso.c_interface.Programs1.model.entities.CarRental;
+import java_curso.c_interface.Programs1.model.entities.Vehicle;
+import java_curso.c_interface.Programs1.model.services.BrazilTaxService;
+import java_curso.c_interface.Programs1.model.services.RentalService;
 
 public class Program1 {
     public static void main(String[] args) throws ParseException {
@@ -27,7 +27,7 @@ public class Program1 {
 		System.out.print("Retorno (dd/MM/yyyy HH:mm): ");
 		LocalDateTime finish = LocalDateTime.parse(sc.nextLine(), fmt);
 		
-		CarRental cr = new CarRental(start, finish, new Vehicle(carModel));
+		CarRental cr = new CarRental(start, finish, new Vehicle(carModel)); //objeto cr com o objeto de vehicle
 
 		System.out.print("Entre com o preço por hora: ");
 		double pricePerHour = sc.nextDouble();
@@ -37,7 +37,7 @@ public class Program1 {
 		RentalService rentalService = new RentalService(pricePerDay, pricePerHour, new BrazilTaxService());//na hora de implementar o rentalservice 
                                                                                                            //informa a implementação do serviço no caso BrazilTaxService
 		
-		rentalService.processInvoice(cr);
+		rentalService.processInvoice(cr); //objeto usando metodo
 
 		System.out.println("FATURA:");
 		System.out.println("Pagamento basico: " + String.format("%.2f", cr.getInvoice().getBasicPayment()));

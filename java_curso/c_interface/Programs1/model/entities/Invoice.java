@@ -1,4 +1,4 @@
-package java_curso.c_interface.model.entities;
+package java_curso.c_interface.Programs1.model.entities;
 
 public class Invoice {
     private Double basicPayment;
