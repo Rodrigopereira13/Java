@@ -5,7 +5,7 @@ import java.security.InvalidParameterException;
 public interface InterestService {
     double getInterestRate();
 
-	default double payment(double amount, int months) { //metodo na interface
+	default double payment(double amount, int months) { //metodo na interface para reaproveitar
 		if (months < 1) {
 			throw new InvalidParameterException("Months must be greater than zero");
 		}
