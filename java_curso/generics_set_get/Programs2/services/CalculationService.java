@@ -3,7 +3,8 @@ package java_curso.generics_set_get.Programs2.services;
 import java.util.List;
 
 public class CalculationService {
-    public static <T extends Comparable<T>> T max(List<T> list) { //metodo max generico <T> que extende de comparable
+    public static <T extends Comparable<T>> T max(List<T> list) { //metodo max generico <T> que extende ou seja
+		                                                         //  tbm pode ser um subtipo de comparable ou comparable
 		
         if (list.isEmpty()) {
 			throw new IllegalStateException("List can't be empty");
