@@ -1,6 +1,5 @@
 package java_curso.generics_set_get.ProgramSet.Programs1.entities;
 
-import java_curso.generics_set_get.ProgramEqHasch.entities.Client;
 
 public class Product {
 
