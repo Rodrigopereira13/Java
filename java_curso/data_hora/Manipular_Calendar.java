@@ -19,7 +19,7 @@ public class Manipular_Calendar {
         System.out.println(sdf.format(d));
 
         int minutes = cal.get(Calendar.MINUTE);  //pega o minuto no 
-        int month = 1 + cal.get(Calendar.MONTH);  //pega o mês
+        int month = 1 + cal.get(Calendar.MONTH);  //pega o mês com 1+ 
         System.out.println("Minutes: " + minutes);
         System.out.println("Month: " + month);
     }
