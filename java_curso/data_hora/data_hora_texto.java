@@ -9,16 +9,16 @@ import java.time.format.DateTimeFormatter;
 public class data_hora_texto {
     public static void main(String[] args) {
 		
-		LocalDate d04 = LocalDate.parse("2022-07-20");
-		LocalDateTime d05 = LocalDateTime.parse("2022-07-20T01:30:26");
-		Instant d06 = Instant.parse("2022-07-20T01:30:26Z");
+		LocalDate d04 = LocalDate.parse("2022-07-20");    //data local
+		LocalDateTime d05 = LocalDateTime.parse("2022-07-20T01:30:26"); // data com tempo
+		Instant d06 = Instant.parse("2022-07-20T01:30:26Z"); // data com tempo instantânio
 		
 		// https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/format/DateTimeFormatter.html
-		DateTimeFormatter fmt1 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+		DateTimeFormatter fmt1 = DateTimeFormatter.ofPattern("dd/MM/yyyy");           //formatar
 		DateTimeFormatter fmt2 = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
-		DateTimeFormatter fmt3 = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm").withZone(ZoneId.systemDefault());
-		DateTimeFormatter fmt4 = DateTimeFormatter.ISO_DATE_TIME;
-		DateTimeFormatter fmt5 = DateTimeFormatter.ISO_INSTANT;
+		DateTimeFormatter fmt3 = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm").withZone(ZoneId.systemDefault()); //formatar de acordo com o sistema 
+		DateTimeFormatter fmt4 = DateTimeFormatter.ISO_DATE_TIME; //formatar iso
+		DateTimeFormatter fmt5 = DateTimeFormatter.ISO_INSTANT;  //formatar insta
 		
 		System.out.println("d04 = " + d04.format(fmt1));
 		System.out.println("d04 = " + fmt1.format(d04));
