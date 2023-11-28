@@ -1,4 +1,4 @@
-package java_curso.vetores_listas;
+package java_curso.vetores_listas.Programs2;
 
 public class Rent {
     private String name;

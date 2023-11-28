@@ -11,13 +11,13 @@ public class listas1 {
         list.add("Alex");
         list.add("Bob");
         list.add("Anna");
-        list.add(2, "Marco");
-        System.out.println(list.size());
+        list.add(2, "Marco"); //trocar o elemento da lista
+        System.out.println(list.size()); //tamanho da lista
         for (String x : list) {
-            System.out.println(x);
+            System.out.println(x); 
         }
         System.out.println("---------------------");
-        list.removeIf(x -> x.charAt(0) == 'M');
+        list.removeIf(x -> x.charAt(0) == 'M');   //remove se a primeira letra por M
         for (String x : list) {
             System.out.println(x);
         }

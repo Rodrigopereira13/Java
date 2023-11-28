@@ -1,4 +1,4 @@
-package java_curso.vetores_listas;
+package java_curso.vetores_listas.Programs1;
 
 public class Product {
     private String name;
