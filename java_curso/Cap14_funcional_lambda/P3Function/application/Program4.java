@@ -22,6 +22,7 @@ public class Program4 {
 		//Function<Product, String> func = p -> p.getName().toUpperCase();
 
 		List<String> names = list.stream().map(p -> p.getName().toUpperCase()).collect(Collectors.toList());
+        //map aplica a função upercase em todos os elementos de list
 
 		names.forEach(System.out::println);
     }
