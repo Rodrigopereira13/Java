@@ -31,8 +31,8 @@ public class Program6 {
         // gera um resultado
 
         List<Integer> newList = list.stream()
-                .filter(x -> x % 2 == 0)
-                .map(x -> x * 10)
+                .filter(x -> x % 2 == 0) //filtra
+                .map(x -> x * 10) //passa por todos e multiplica por 10
                 .collect(Collectors.toList());
         System.out.println(Arrays.toString(newList.toArray()));
         //Cria um stream de list que filtra em par e depois multiplica por 10 em map e passa pra list
