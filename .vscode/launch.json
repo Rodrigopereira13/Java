@@ -4,7 +4,335 @@
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "Program7",
+            "request": "launch",
+            "mainClass": "java_curso.Cap14_funcional_lambda.Stream_pipeline.Programs7.application.Program7",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Program6",
+            "request": "launch",
+            "mainClass": "java_curso.Cap14_funcional_lambda.Stream_pipeline.Program6",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Program6",
+            "request": "launch",
+            "mainClass": "java_curso.Cap14_funcional_lambda.Stream.Program6",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Program4",
+            "request": "launch",
+            "mainClass": "java_curso.Cap14_funcional_lambda.P3Function.application.Program4",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Program3",
+            "request": "launch",
+            "mainClass": "java_curso.Cap14_funcional_lambda.Consumer.application.Program3",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Program2",
+            "request": "launch",
+            "mainClass": "java_curso.Cap14_funcional_lambda.Programs1.Predicate.application.Program2",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Program1",
+            "request": "launch",
+            "mainClass": "java_curso.Cap14_funcional_lambda.Programs1.application.Program1",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Manipular_Calendar",
+            "request": "launch",
+            "mainClass": "java_curso.data_hora.Manipular_Calendar",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "form_data_hora",
+            "request": "launch",
+            "mainClass": "java_curso.data_hora.form_data_hora",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "dataglob_local",
+            "request": "launch",
+            "mainClass": "java_curso.data_hora.dataglob_local",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "data_hora_texto",
+            "request": "launch",
+            "mainClass": "java_curso.data_hora.data_hora_texto",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Program1",
+            "request": "launch",
+            "mainClass": "java_curso.vetores_listas.Programs1.Program1",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Program2",
+            "request": "launch",
+            "mainClass": "java_curso.vetores_listas.Programs2.Program2",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Prog_Employee",
+            "request": "launch",
+            "mainClass": "java_curso.vetores_listas.Programs3.Prog_Employee",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Negativos",
+            "request": "launch",
+            "mainClass": "java_curso.vetores_listas.Negativos",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "media",
+            "request": "launch",
+            "mainClass": "java_curso.vetores_listas.media",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "listas1",
+            "request": "launch",
+            "mainClass": "java_curso.vetores_listas.listas1",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "ProgramMap1",
+            "request": "launch",
+            "mainClass": "java_curso.generics_set_get.ProgramsMap.ProgramMap1",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Program2",
+            "request": "launch",
+            "mainClass": "java_curso.generics_set_get.ProgramsMap.Programs2.application.Program2",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "ProgramMap",
+            "request": "launch",
+            "mainClass": "java_curso.generics_set_get.ProgramsMap.ProgramMap",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "ProgramXExerc",
+            "request": "launch",
+            "mainClass": "java_curso.generics_set_get.ProgramXExerc.application.ProgramXExerc",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "ProgramTreeSet",
+            "request": "launch",
+            "mainClass": "java_curso.generics_set_get.ProgramTreeSet.application.ProgramTreeSet",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Program1",
+            "request": "launch",
+            "mainClass": "java_curso.generics_set_get.ProgramSet.Programs1.application.Program1",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "ProgramSet",
+            "request": "launch",
+            "mainClass": "java_curso.generics_set_get.ProgramSet.ProgramSet",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "ProgramEqHasch",
+            "request": "launch",
+            "mainClass": "java_curso.generics_set_get.ProgramEqHasch.application.ProgramEqHasch",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Program4",
+            "request": "launch",
+            "mainClass": "java_curso.generics_set_get.Programs4.Program4",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Program3",
+            "request": "launch",
+            "mainClass": "java_curso.generics_set_get.Programs3.Program3",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Program2",
+            "request": "launch",
+            "mainClass": "java_curso.generics_set_get.Programs2.application.Program2",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Program1",
+            "request": "launch",
+            "mainClass": "java_curso.generics_set_get.Programs1.application.Program1",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Program4",
+            "request": "launch",
+            "mainClass": "java_curso.c_interface.interf_comparable.Program4",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Program2",
+            "request": "launch",
+            "mainClass": "java_curso.c_interface.Programs2.application.Program2",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Program4",
+            "request": "launch",
+            "mainClass": "java_curso.arquivos.Program4",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Program3",
+            "request": "launch",
+            "mainClass": "java_curso.arquivos.Program3",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Program2Modf",
+            "request": "launch",
+            "mainClass": "java_curso.arquivos.Program2Modf",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Program2",
+            "request": "launch",
+            "mainClass": "java_curso.arquivos.Program2",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Program1",
+            "request": "launch",
+            "mainClass": "java_curso.arquivos.Program1",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Program4",
+            "request": "launch",
+            "mainClass": "java_curso.Exceções.Programs4.Application.Program4",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Program2",
+            "request": "launch",
+            "mainClass": "java_curso.exceções.Program2",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Program2",
+            "request": "launch",
+            "mainClass": "java_curso.herança.Programs2.Application.Program2",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Program1",
+            "request": "launch",
+            "mainClass": "java_curso.herança.Programs1.Application.Program1",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Program1",
+            "request": "launch",
+            "mainClass": "java_curso.enumeracao_composicao.Program1.Program1",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "duracao_data_hora",
+            "request": "launch",
+            "mainClass": "java_curso.data_hora.duracao_data_hora",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Alturas",
+            "request": "launch",
+            "mainClass": "java_curso.vetores.Alturas",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Matriz",
+            "request": "launch",
+            "mainClass": "java_curso.vetores.Matriz",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "listas1",
+            "request": "launch",
+            "mainClass": "java_curso.vetores.listas1",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Negativos",
+            "request": "launch",
+            "mainClass": "java_curso.vetores.Negativos",
+            "projectName": "Java_7aa3ae64"
+        },
+        {
+            "type": "java",
+            "name": "Program1",
+            "request": "launch",
+            "mainClass": "java_curso.vetores.Program1",
+            "projectName": "Java_7aa3ae64"
+        },
         {
             "name": "Java",
             "type": "java",

@@ -1,4 +1,4 @@
-package java_curso.Cap8_enumeracao_composicao.Program3.enteties;
+package java_curso.Cap8_enumeracao_composicao.Programs3.enteties;
 
 public class Coment {
     private String text;
